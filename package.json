@@ -1,0 +1,47 @@
+{
+  "name": "vite-react-ts",
+  "version": "0.0.0",
+  "description": "React Typescript Starter Template with Vite",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uchihamalolan/vite-react-ts.git"
+  },
+  "keywords": [
+    "vite",
+    "react",
+    "starter",
+    "template"
+  ],
+  "author": "Malolan B. <uchihamalolan@gmail.com> (https://twitter.com/malolan12)",
+  "license": "MIT",
+  "homepage": "https://github.com/uchihamalolan/vite-react-ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "test": "jest",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-error-boundary": "^3.1.4"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "^8.14.0",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^14.2.1",
+    "@types/jest": "^28.1.4",
+    "@types/node": "^18.0.3",
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.0.1",
+    "jest": "28.1.2",
+    "jest-environment-jsdom": "^28.1.2",
+    "react-test-renderer": "^18.2.0",
+    "ts-jest": "28.0.5",
+    "typescript": "^4.7.4",
+    "vite": "^3.0.7",
+    "vite-tsconfig-paths": "^3.5.0"
+  }
+}
